@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet>
+         <menu
+               id="validator"
+               label="%lb_group_validator"
+               path="tool/">
+         </menu>
+         <action
+			   id="classValidator"
+			   label="%lb_item_classValidator"
+               class="com.validator.TemplateAction"
+               tooltip="%tooltip_item_classValidator"
+               menubarPath="tool/validator/">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
+
